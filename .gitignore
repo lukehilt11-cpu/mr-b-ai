@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+installer/
+assets/
+staging/
+build.log
+__pycache__/
+*.pyc

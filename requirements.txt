@@ -1,0 +1,5 @@
+flask>=3.0
+google-genai>=2.3
+pywebview>=5.3
+pillow>=10.1
+pyinstaller>=6.6
