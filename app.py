@@ -29,13 +29,13 @@ from werkzeug.serving import make_server
 
 # ───────────────────────── Config (edit these, then rebuild) ─────────────────────────
 APP_NAME = "Mr. B AI"
-PLACEHOLDER = "AIzaSyAg7GnDLT_o4I8hPdWTq6RIP0SqptmJoDw"
+PLACEHOLDER = "PASTE_YOUR_GEMINI_API_KEY_HERE"
 DEFAULTS = {
     "gemini_api_key": PLACEHOLDER,
     "model": "gemini-3.5-flash-lite",   # fallback: "gemini-3.1-flash-lite"
     "username": "mrb",
-    "password": "health2026",
-    "require_login": False,              # set to false in config.json to skip the login screen
+    "password": "change-me",
+    "require_login": True,              # set to false in config.json to skip the login screen
 }
 MAX_HISTORY = 40                        # messages sent to the model per request
 SYSTEM_PROMPT = """You are Mr. B AI, a specialist in information analysis and pattern recognition, and an outstanding teaching assistant.

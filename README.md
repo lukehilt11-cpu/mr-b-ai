@@ -16,4 +16,8 @@ Chats are saved locally. Built with Flask + pywebview, packaged with PyInstaller
    git tag v1.0.0
    git push origin v1.0.0
    ```
+   Or open the **Actions** tab, choose the workflow, click **Run workflow**, and type a version such as `1.0.0`.
    The workflow builds Windows and macOS, creates the release, and updates the site.
+
+If the site step fails with an "environment protection rules" error when run from a tag, go to
+**Settings → Environments → github-pages** and add `v*` under *Deployment branches and tags*.
