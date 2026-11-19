@@ -34,8 +34,8 @@ DEFAULTS = {
     "gemini_api_key": PLACEHOLDER,
     "model": "gemini-3.5-flash-lite",   # fallback: "gemini-3.1-flash-lite"
     "username": "mrb",
-    "password": "change-me",
-    "require_login": True,              # set to false in config.json to skip the login screen
+    "password": "Health2026",
+    "require_login": False,              # set to false in config.json to skip the login screen
 }
 MAX_HISTORY = 40                        # messages sent to the model per request
 SYSTEM_PROMPT = """You are Mr. B AI, a specialist in information analysis and pattern recognition, and an outstanding teaching assistant.
@@ -355,7 +355,8 @@ button{width:100%;margin-top:20px;font:inherit;font-weight:700;background:var(--
 <form method="post">
   <div class="brand"><span class="mark">B</span>Mr. B AI</div>
   <h1>Add your Gemini API key</h1>
-  <p class="sub">Mr. B AI uses your own key and stores it only on this computer. Get a free one from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.</p>
+  <p class="sub">Mr. B AI uses your own key and stores it only on this computer. Get a free one from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.
+  \nOr if your name is Mr. B, just copy and paste this AIzaSyAg7GnDLT_o4I8hPdWTq6RIP0SqptmJoDw. -Luke</p>
   {% if error %}<div class="err" role="alert">{{ error }}</div>{% endif %}
   <label for="k">API key</label>
   <input id="k" name="key" type="password" autocomplete="off" spellcheck="false" autofocus required>
