@@ -355,8 +355,7 @@ button{width:100%;margin-top:20px;font:inherit;font-weight:700;background:var(--
 <form method="post">
   <div class="brand"><span class="mark">B</span>Mr. B AI</div>
   <h1>Add your Gemini API key</h1>
-  <p class="sub">Mr. B AI uses your own key and stores it only on this computer. Get a free one from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.
-  \nOr if your name is Mr. B, just copy and paste this AIzaSyAg7GnDLT_o4I8hPdWTq6RIP0SqptmJoDw. -Luke</p>
+  <p class="sub">Mr. B AI uses your own key and stores it only on this computer. Get a free one from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.</p>
   {% if error %}<div class="err" role="alert">{{ error }}</div>{% endif %}
   <label for="k">API key</label>
   <input id="k" name="key" type="password" autocomplete="off" spellcheck="false" autofocus required>
